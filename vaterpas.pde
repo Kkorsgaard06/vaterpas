@@ -41,7 +41,11 @@ void setup() {
 void draw() {
   background(252, 136, 3);
   fill(212,32,23);
-  rect(200,0,400, displayWidth-displayHeight/ay);
+  rect(200,0,200, displayWidth-displayHeight/ay);
+  fill(212,32,212);
+  rect(400,0,200, displayWidth-displayHeight/ax);
+  fill(212,121,212);
+  rect(600,0,200, displayWidth-displayHeight/az);
   fill(0);
   text("X: " + ax + "\nY: " + ay + "\nZ: " + az, 0, 0, width, height);
 }
