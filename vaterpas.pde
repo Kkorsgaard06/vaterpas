@@ -40,7 +40,7 @@ void setup() {
 
 void draw() {
   background(252, 136, 3);
-  fill(34,32,23);
+  fill(212,32,23);
   rect(0,0,displayWidth ,displayHeight-displayWidth/ay);
   fill(0);
   text("X: " + ax + "\nY: " + ay + "\nZ: " + az, 0, 0, width, height);
