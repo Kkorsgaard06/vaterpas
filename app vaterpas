@@ -3,3 +3,9 @@ import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
+
+Context context;
+SensorManager manager;
+Sensor sensor;
+AccelerometerListener listener;
+float ax, ay, az;
